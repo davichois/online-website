@@ -17,9 +17,9 @@ body {
   margin: 20px 40px;
 }
 
-.header-logo{
+.header-logo {
   font-weight: 900;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav {
@@ -32,18 +32,18 @@ body {
 }
 
 .ul-li a {
-  margin: 0 40px;
+  margin: 0px 40px;
   text-decoration: none;
   color: rgb(77, 76, 76);
   font-weight: bold;
 }
 
 main {
-  margin: 10px;
+  margin: 5px;
 }
 
 .container-grid {
-  margin-top: 50px;
+  margin-top: 20px;
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(5, 1fr);
@@ -175,16 +175,16 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width:580px) {
-  .header{
+@media screen and (max-width: 580px) {
+  .header {
     display: flex;
     flex-direction: column;
   }
-  .header-logo{
+  .header-logo {
     margin-bottom: 20px;
   }
 
-  .nav-ul{
+  .nav-ul {
     margin: 0 10px;
     display: flex;
     flex-direction: column;
